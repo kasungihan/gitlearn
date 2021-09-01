@@ -11,7 +11,6 @@ $arr_cookie_options = array (
     'httponly' => true,    // or false
     'samesite' => 'None' // None || Lax  || Strict
     );
-    
 setcookie($cookie_name, 'The Cookie Value', $arr_cookie_options); 
 session_start();
 // Set session variables
