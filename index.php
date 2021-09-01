@@ -2,6 +2,7 @@
 echo "Test One--------------Server<br>";
 
 $cookie_name = "test_cookie";
+
 $arr_cookie_options = array (
     'expires' => time() + 60*60*24*30,
     'path' => '/',
