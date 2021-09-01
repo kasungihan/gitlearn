@@ -1,6 +1,24 @@
 # Git Testing
 
+undo origin and local both
+`git revert 920e5eca112f595fe0297c79f78c51b70c9b6062`
+
+last commit undo
 `git revert -m 1 920e5eca112f595fe0297c79f78c51b70c9b6062`
+
+remove file in th exisiting commit
+`git checkout <commit hash> -- app.js`
+
+local remove commit from head
+`git reset HEAD^`
+
+# Git Log file
+show only commit no other details
+`git log --oneline`
+
+if you need disply only specific number of commit
+`git log -1 --oneline`
+
 
 This repository I used for testing purpose when I having a issue
 
