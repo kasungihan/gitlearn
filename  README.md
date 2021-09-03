@@ -1,5 +1,14 @@
 # Git Testing
 
+discard current change on files
+`git checkout -- <filename>`
+
+discard current change on folder
+`git checkout -- <dirname>`
+
+unstage from the already staged files
+`git reset <filename>`
+
 undo origin and local both
 `git revert 920e5eca112f595fe0297c79f78c51b70c9b6062`
 
