@@ -1,0 +1,28 @@
+{
+  "name": "gitlearn",
+  "version": "1.0.0",
+  "description": "learning semantic version control ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/kasungihan.dev/git-testing.git"
+  },
+  "keywords": [
+    "git",
+    "learning",
+    "devops",
+    "automate"
+  ],
+  "author": "Kasun Gihan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kasungihan.dev/git-testing/issues"
+  },
+  "homepage": "https://gitlab.com/kasungihan.dev/git-testing#readme",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
