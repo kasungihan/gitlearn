@@ -131,10 +131,12 @@ push all the tags
 
 1. create tags when you complete tasks
    `git tag -a v1.0.0 -m "tag for release version 1.0.0"`
-2. create release branch drive from tag
+2. push tag to remote
+   `git tag origin <tagname>`
+3. create release branch drive from tag
    `git checkout -b release-v1.0.0 v1.0.0`
 
-3. install npm standard-version package
+4. install npm standard-version package
 
 This repository I used for testing purpose when I having a issue
 
