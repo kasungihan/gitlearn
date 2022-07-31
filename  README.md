@@ -87,6 +87,9 @@ squash do more commit into the one
 ## Git Rebase Branch
 
 rebasing is the proocess of moving or combining more commit into one, structure different order
+
+## Git Rebase Branch
+
 it's a way to replay commits one by one, on top of a branch not rewrite all the sha-1 ids
 `git rebase -i HEAD~3`
 
