@@ -12,9 +12,13 @@ Version and automate releases with semantic version control v(major.minor.patch)
 
 `git checkout -- <dirname>`
 
-## create new branch derive develpment
+## create new branch derive develpment with -d switch
 
-`git checkout -b myFeature develpment`
+`git checkout -b <feature> develpment`
+
+## delete branch
+
+`git branch -d <feature>`
 
 ## unstage from the already staged files
 
@@ -62,6 +66,8 @@ Version and automate releases with semantic version control v(major.minor.patch)
 ## count total amount of feature commit
 
 `git log --oneline --grep "^feat" | wc -l`
+
+# Git Merge Branch
 
 # Git Tags
 
