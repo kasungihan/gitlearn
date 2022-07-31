@@ -22,6 +22,7 @@ var_dump($_COOKIE);
 $value = session('cart_item', Str::uuid());
 //save the key and value in session on table cart_item
 
+// new git change
 
 //AppSeervice.php
 if (session()->has('cart_item')) {
