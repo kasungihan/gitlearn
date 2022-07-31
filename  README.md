@@ -2,6 +2,8 @@
 
 Version and automate releases with semantic version control v(major.minor.patch)
 
+# Git Branch
+
 ## discard current change on files
 
 `git checkout -- <filename>`
@@ -9,6 +11,10 @@ Version and automate releases with semantic version control v(major.minor.patch)
 ## discard current change on folder
 
 `git checkout -- <dirname>`
+
+## create new branch derive develpment
+
+`git checkout -b myFeature develpment`
 
 ## unstage from the already staged files
 
