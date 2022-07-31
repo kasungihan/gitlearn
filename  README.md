@@ -69,6 +69,14 @@ Version and automate releases with semantic version control v(major.minor.patch)
 
 # Git Merge Branch
 
+## fast forword merge
+
+histories is move the merged branch(combines the histories)
+`git merge <branch>`
+
+always generates a merge commit
+`git merge --no-ff <branch>`
+
 # Git Tags
 
 tagging is creating specific pionts in history(mark release) for repository that can be to restore data)
