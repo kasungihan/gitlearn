@@ -99,7 +99,20 @@ tagging is creating specific pionts in history(mark release) for repository that
 
 ## git tags show
 
-`git show`
+`git tag`
+`git show <tagname>`
+`git tag -l "v1.*"`
+
+## git create tag
+
+`git tag <tagname>`
+
+create annotated tate tags
+`git tag -a v1.0.0-beta -m "tag for release beta version 1.0.0"`
+
+## git delete tag
+
+`git tag <tagname>`
 
 This repository I used for testing purpose when I having a issue
 
