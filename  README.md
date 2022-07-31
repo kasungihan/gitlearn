@@ -103,6 +103,18 @@ tagging is creating specific pionts in history(mark release) for repository that
 
 This repository I used for testing purpose when I having a issue
 
+# Git Fork
+
+1. do the update you want areas
+
+2. change original remote name to spstream
+   `git remote rename origin upstream`
+
+3. add new your origin - URL of our own fork
+   `git remote add origin git@github.com:kasungihan/w3schools-test.github.io.git`
+
+4. then create pull request on github account
+
 ## Add your files
 
 - [ ] [Create](https://gitlab.com/-/experiment/new_project_readme_content:08acfb2a51f4832f7102aedb4a43861d?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://gitlab.com/-/experiment/new_project_readme_content:08acfb2a51f4832f7102aedb4a43861d?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
