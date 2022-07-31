@@ -112,7 +112,20 @@ create annotated tate tags
 
 ## git delete tag
 
-`git tag <tagname>`
+`git tag -d <tagname>`
+`git tag -delete <tagname>`
+delte from the repository as well
+`git push origin -d <tagname>`
+creeate a branch from a tag and checkout branch
+`git checkout -b <branchversionname> <tagversionname>`
+create a tag form some post commit (get old version again)
+`git tag <tagname> <commit-sha>`
+
+## git push tag
+
+`git push origin <tagname>`
+push all the tags
+`git push --tags`
 
 This repository I used for testing purpose when I having a issue
 
