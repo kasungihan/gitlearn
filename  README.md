@@ -134,6 +134,8 @@ push all the tags
 2. create release branch drive from tag
    `git checkout -b release-v1.0.0 v1.0.0`
 
+3. install npm standard-version package
+
 This repository I used for testing purpose when I having a issue
 
 # Git Fork
