@@ -115,7 +115,8 @@ git branch -M main
 git push -uf origin main
 ```
 
-Gitlab app in slack
+## Gitlab app in slack
+
 App ID A03QHCBN9M4
 Client ID 2654714146629.3833419757718
 Client Secret f6b2b8abbe12a956fa72df87796b0909
