@@ -4,6 +4,8 @@ Version and automate releases with semantic version control v(major.minor.patch)
 
 # Git Branch
 
+ancestor iscreeate branch point
+
 ## discard current change on files
 
 `git checkout -- <filename>`
@@ -74,8 +76,22 @@ Version and automate releases with semantic version control v(major.minor.patch)
 histories is move the merged branch(combines the histories)
 `git merge <branch>`
 
-always generates a merge commit
+always generates a merge commit with backtracking - 3-way merge
 `git merge --no-ff <branch>`
+
+squash do more commit into the one
+`git rebase -i HEAD~3`
+`git merge --squash feature/login`
+`git reset --soft HEAD~3`
+
+## Git Rebase Branch
+
+rebasing is the proocess of moving or combining more commit into one, structure different order
+
+## Git Rebase Branch
+
+it's a way to replay commits one by one, on top of a branch not rewrite all the sha-1 ids
+`git rebase -i HEAD~3`
 
 # Git Tags
 
@@ -99,7 +115,8 @@ git branch -M main
 git push -uf origin main
 ```
 
-Gitlab app in slack
+## Gitlab app in slack
+
 App ID A03QHCBN9M4
 Client ID 2654714146629.3833419757718
 Client Secret f6b2b8abbe12a956fa72df87796b0909
