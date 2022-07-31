@@ -127,6 +127,13 @@ create a tag form some post commit (get old version again)
 push all the tags
 `git push --tags`
 
+# Git tagging step and sementic version
+
+1. create tags when you complete tasks
+   `git tag -a v1.0.0 -m "tag for release version 1.0.0"`
+2. create release branch drive from tag
+   `git checkout -b release-v1.0.0 v1.0.0`
+
 This repository I used for testing purpose when I having a issue
 
 # Git Fork
