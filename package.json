@@ -1,6 +1,6 @@
 {
   "name": "gitlearn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "learning semantic version control ",
   "main": "index.js",
   "scripts": {
