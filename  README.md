@@ -57,6 +57,14 @@ Version and automate releases with semantic version control v(major.minor.patch)
 
 `git log --oneline --grep "^feat" | wc -l`
 
+# Git Tags
+
+tagging is creating specific pionts in history(mark release) for repository that can be to restore data)
+
+## git tags show
+
+`git show`
+
 This repository I used for testing purpose when I having a issue
 
 ## Add your files
