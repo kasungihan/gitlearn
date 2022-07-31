@@ -99,7 +99,40 @@ tagging is creating specific pionts in history(mark release) for repository that
 
 ## git tags show
 
-`git show`
+`git tag`
+`git show <tagname>`
+`git tag -l "v1.*"`
+
+## git create tag
+
+`git tag <tagname>`
+
+create annotated tate tags
+`git tag -a v1.0.0-beta -m "tag for release beta version 1.0.0"`
+
+## git delete tag
+
+`git tag -d <tagname>`
+`git tag -delete <tagname>`
+delte from the repository as well
+`git push origin -d <tagname>`
+creeate a branch from a tag and checkout branch
+`git checkout -b <branchversionname> <tagversionname>`
+create a tag form some post commit (get old version again)
+`git tag <tagname> <commit-sha>`
+
+## git push tag
+
+`git push origin <tagname>`
+push all the tags
+`git push --tags`
+
+# Git tagging step and sementic version
+
+1. create tags when you complete tasks
+   `git tag -a v1.0.0 -m "tag for release version 1.0.0"`
+2. create release branch drive from tag
+   `git checkout -b release-v1.0.0 v1.0.0`
 
 This repository I used for testing purpose when I having a issue
 
