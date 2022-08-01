@@ -8,18 +8,6 @@
     "release": "standard-version",
     "semantic-release": "semantic-release"
   },
-  "release": {
-    "branches": [
-      "development",
-      "next"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/git",
-      "@semantic-release/changelog"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:kasungihan.dev/git-testing.git"
