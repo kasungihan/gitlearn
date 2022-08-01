@@ -1,15 +1,16 @@
 {
   "name": "gitlearn",
-  "version": "1.0.5",
+  "version": "1.12.0",
   "description": "learning semantic version control ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "standard-version",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/kasungihan.dev/git-testing.git"
+    "url": "git@gitlab.com:kasungihan.dev/git-testing.git"
   },
   "keywords": [
     "git",
@@ -20,10 +21,16 @@
   "author": "Kasun Gihan",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/kasungihan.dev/git-testing/issues"
+    "url": "git@gitlab.com:kasungihan.dev/git-testing/issues"
   },
-  "homepage": "https://gitlab.com/kasungihan.dev/git-testing#readme",
+  "homepage": "git@gitlab.com:kasungihan.dev/git-testing#readme",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.3",
     "standard-version": "^9.5.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
