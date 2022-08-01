@@ -137,6 +137,20 @@ push all the tags
    `git checkout -b release-v1.0.0 v1.0.0`
 
 4. install npm standard-version package
+   `npm i --save-dev standard-version`
+
+5. add npm script
+
+```js
+{
+  "scripts": {
+    "release": "standard-version"
+  }
+}
+```
+
+6. run minor release, next time run only argument major, minor or patch.
+   `npm run release -- --release-as 1.1.0`
 
 This repository I used for testing purpose when I having a issue
 
