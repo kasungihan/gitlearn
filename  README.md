@@ -163,6 +163,7 @@ push all the tags
 if you want to fix something versiontag get branch from tags
 
 fix change
+feat and fix put withou icon
 
 This repository I used for testing purpose when I having a issue
 
