@@ -152,8 +152,10 @@ push all the tags
 }
 ```
 
-6. run minor release, next time run only argument major, minor or patch.
-   `npm run release -- --release-as 1.1.0`
+3. get release branch and merge to master
+
+4. run minor release, next time run only argument major, minor or patch.
+   `npm run release -- --release-as minor`
 
 This repository I used for testing purpose when I having a issue
 
