@@ -157,6 +157,9 @@ push all the tags
 4. run minor release, next time run only argument major, minor or patch.
    `npm run release -- --release-as minor`
 
+5. push the tag to origin
+   `git push origin v1.12.0`
+
 This repository I used for testing purpose when I having a issue
 
 # Git Fork
