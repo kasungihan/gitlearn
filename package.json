@@ -10,13 +10,13 @@
   },
   "release": {
     "branches": [
-      "master",
+      "develpment",
       "next"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/kasungihan.dev/git-testing.git"
+    "url": "git@gitlab.com:kasungihan.dev/git-testing.git"
   },
   "keywords": [
     "git",
@@ -27,9 +27,9 @@
   "author": "Kasun Gihan",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/kasungihan.dev/git-testing/issues"
+    "url": "git@gitlab.com:kasungihan.dev/git-testing/issues"
   },
-  "homepage": "https://gitlab.com/kasungihan.dev/git-testing#readme",
+  "homepage": "git@gitlab.com:kasungihan.dev/git-testing#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
