@@ -136,10 +136,13 @@ push all the tags
 3. create release branch drive from tag
    `git checkout -b release-v1.0.0 v1.0.0`
 
-4. install npm standard-version package
+# Git Standsard Version
+
+1. install npm standard-version package
    `npm i --save-dev standard-version`
 
-5. add npm script
+2. update npm script
+   `"version": "1.12.0",`
 
 ```js
 {
@@ -149,8 +152,8 @@ push all the tags
 }
 ```
 
-fsfsfs 6. run minor release, next time run only argument major, minor or patch.
-`npm run release -- --release-as 1.1.0`
+6. run minor release, next time run only argument major, minor or patch.
+   `npm run release -- --release-as 1.1.0`
 
 This repository I used for testing purpose when I having a issue
 
