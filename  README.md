@@ -160,6 +160,8 @@ push all the tags
 5. push the tag to origin
    `git push origin v1.12.0`
 
+if you want to fix something versiontag get branch from tags
+
 This repository I used for testing purpose when I having a issue
 
 # Git Fork
