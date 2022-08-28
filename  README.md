@@ -179,9 +179,11 @@ This repository I used for testing purpose when I having a issue
 
 4. then create pull request on github account
 
-## Gitlab app in slack
+## Github with slack intergation
 
-App ID A03QHCBN9M4
-Client ID 2654714146629.3833419757718
-Client Secret f6b2b8abbe12a956fa72df87796b0909
-Signing Secret ffbec9c880979d36f60bfd2c07b274aa
+create webhook app in slack
+
+App ID ****\*\*****
+Client ID **********\*\*\***********
+Client Secret **********\*\*\*\***********
+Signing Secret ****\*\*****\*\*****\*\*\*\*****
